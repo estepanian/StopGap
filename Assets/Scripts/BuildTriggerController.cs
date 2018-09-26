@@ -29,8 +29,8 @@ public class BuildTriggerController : MonoBehaviour
         int i = 0;
         while (i < 9)
         {
-            int r = Random.Range(0, 2);
-            if(r>0){
+            int r = Random.Range(0, 10);
+            if(r<6){
                 xPos = (float)(i - 4.5);
                 newPos.x = xPos;
                 newPos.y = yPos;
