@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e3b34aa5414d24d55940bf138619d509
+guid: c601ad9bd858b4767b1cf407b3856d8a
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -12,8 +12,8 @@ ModelImporter:
     400004: low_poly_earth
     400006: //RootNode
     2000000: Camera
-    2100000: water.001
-    2100002: earth.001
+    2100000: water.002
+    2100002: earth.002
     2300000: low_poly_earth
     3300000: low_poly_earth
     4300000: low_poly_earth
@@ -50,7 +50,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0.5
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1

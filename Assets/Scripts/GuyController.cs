@@ -38,8 +38,8 @@ public class GuyController : MonoBehaviour
         if (isGyro){
 
             if(SystemInfo.operatingSystem.Contains("Android")){
-                yRotation += -Input.gyro.rotationRateUnbiased.y;
-                xRotation += -Input.gyro.rotationRateUnbiased.x;
+                yRotation += Input.gyro.rotationRateUnbiased.y;
+                xRotation += Input.gyro.rotationRateUnbiased.x;
                 hInput = yRotation/10;
                 vInput = xRotation/10;
             }
@@ -51,6 +51,7 @@ public class GuyController : MonoBehaviour
             }
         }
         else{
+            yrot.enabled = true;
             yrot.text = "no gyro detected";
         }
         //if(Input.touchCount > 0){
