@@ -6,8 +6,10 @@ public class BuildTriggerController : MonoBehaviour
 {
     public Rigidbody blockRB;
     public Rigidbody touchBlockRB;
+    public Rigidbody nibbleRB;
     public Transform blockTF;
     public Transform touchBlockTF;
+    public Transform nibbleTF;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,7 +19,7 @@ public class BuildTriggerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
     private void buildRow(float zPos){
 
@@ -25,19 +27,28 @@ public class BuildTriggerController : MonoBehaviour
         float yPos = (float)-.5;
         zPos -= 16;
         Vector3 newPos;
+        Vector3 tempPos;
 
         int i = 0;
         while (i < 9)
         {
             int r = Random.Range(0, 10);
-            if(r<6){
+            if (r<6){
                 xPos = (float)(i - 4.5);
                 newPos.x = xPos;
                 newPos.y = yPos;
                 newPos.z = zPos;
                 blockTF.position = newPos;
                 Instantiate(blockRB, blockTF.parent=null);
-            }else{
+                if(r%3 == 0){
+                    //Builds the golden nibbles.
+                    tempPos = newPos;
+                    tempPos.y = 0.2F;
+                    nibbleTF.position = tempPos;
+                    Instantiate(nibbleRB, nibbleTF.parent = null);
+                }
+            }
+            else{
                 xPos = (float)(i - 4.5);
                 newPos.x = xPos;
                 newPos.y = yPos;
