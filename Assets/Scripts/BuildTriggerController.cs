@@ -25,12 +25,12 @@ public class BuildTriggerController : MonoBehaviour
 
         float xPos;
         float yPos = (float)-.5;
-        zPos -= 16;
+        zPos -= 17;
         Vector3 newPos;
         Vector3 tempPos;
 
         int i = 0;
-        while (i < 9)
+        while (i < 10)
         {
             int r = Random.Range(0, 10);
             if (r<6){

@@ -20,7 +20,7 @@ public class GameController : MonoBehaviour
     {
         CleanUI();
         Time.timeScale = 1;
-        scoreText.text = "Touch to make blocks.";
+        scoreText.text = "Tilt phone to move left and right. Touch to make blocks.";
         restartText.enabled = false;
         yrot.enabled = false;
         blockCount = 0;
