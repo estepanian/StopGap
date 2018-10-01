@@ -46,8 +46,9 @@ public class GameController : MonoBehaviour
         restartText.enabled = true;
         Time.timeScale = 0;
         enabled = false;
-        scoreText.text = ((-guy.transform.position.z) - 2).ToString() + " meters";
-        restartText.text = "Click to Restart";
+        double scoreInt = (((-guy.transform.position.z) - 2) * 12742000);
+        scoreText.text = scoreInt.ToString("0.###E+0") + " meters...";
+        restartText.text = "CLICK TO RESTART";
 
     }
     public void RestartGame(){

@@ -304,15 +304,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8113208, g: 0.74602985, b: 0.13394445, a: 1}
+  m_Color: {r: 0.8773585, g: 0.84489775, b: 0.13656996, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 75
+    m_Font: {fileID: 12800000, guid: 971990de10c26457aaa85044e03953e3, type: 3}
+    m_FontSize: 58
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 4
@@ -348,7 +348,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 123.05002, y: -262}
+  m_AnchoredPosition: {x: 123.05002, y: -261}
   m_SizeDelta: {x: 317.3, y: 191.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &534669902
@@ -652,7 +652,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 971990de10c26457aaa85044e03953e3, type: 3}
     m_FontSize: 46
     m_FontStyle: 1
     m_BestFit: 0
@@ -664,7 +664,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Block Count: '
+  m_Text: 'BLOCK COUNT:'
 --- !u!222 &603606984
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -866,8 +866,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0024796, y: 450.3}
-  m_SizeDelta: {x: 598.09, y: 507.6}
+  m_AnchoredPosition: {x: -0.00023651, y: 321.8}
+  m_SizeDelta: {x: 891.6, y: 643.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &779987495
 MonoBehaviour:
@@ -889,19 +889,19 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 88
+    m_Font: {fileID: 12800000, guid: 971990de10c26457aaa85044e03953e3, type: 3}
+    m_FontSize: 116
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 89
-    m_Alignment: 4
+    m_MaxSize: 131
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Score Text
+  m_Text: SCORE TEXT
 --- !u!222 &779987496
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1055,8 +1055,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0024414, y: -89.3}
-  m_SizeDelta: {x: 598.09, y: 178.7}
+  m_AnchoredPosition: {x: 0.000015259, y: -83.175}
+  m_SizeDelta: {x: 891.6, y: 166.45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1516669119
 MonoBehaviour:
@@ -1071,14 +1071,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5803922, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.5803922, b: 0.6618002, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 971990de10c26457aaa85044e03953e3, type: 3}
     m_FontSize: 88
     m_FontStyle: 0
     m_BestFit: 0
@@ -1090,7 +1090,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Click to Restart
+  m_Text: CLICK TO RESTART
 --- !u!222 &1516669120
 CanvasRenderer:
   m_ObjectHideFlags: 0
