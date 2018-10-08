@@ -15,6 +15,8 @@ public class GameController : MonoBehaviour
     public GameObject guy;
 
     public int blockCount;
+
+    private bool gameOver;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +27,7 @@ public class GameController : MonoBehaviour
         yrot.enabled = false;
         blockCount = 0;
         blockCountText.text = blockCount.ToString();
+        gameOver = false;
     }
 
     // Update is called once per frame
@@ -48,7 +51,8 @@ public class GameController : MonoBehaviour
         enabled = false;
         double scoreInt = (((-guy.transform.position.z) - 2) * 12742000);
         scoreText.text = scoreInt.ToString("0.###E+0") + " meters...";
-        restartText.text = "CLICK TO RESTART";
+        restartText.text = "TOUCH TO RESTART";
+        gameOver = true;
 
     }
     public void RestartGame(){
@@ -70,5 +74,10 @@ public class GameController : MonoBehaviour
     }
     public void OOM(){
         //In here, maybe make the blockCount text flash or something.
+    }
+    public void AnyTouch(){
+        if(gameOver){
+            this.RestartGame();
+        }
     }
 }
